@@ -3,7 +3,7 @@
 DEV Community)
 - Need add README.md file to demonstrate main content, how to run/start project as well.
 - Setup up start command in package.json to make project can run/start easy
-"""
+
 "scripts": {
 "test": "echo\ "Error: notestspecified\" &6 exiti"
 "start": "node app"
@@ -17,19 +17,19 @@ DEV Community)
     https://github.com/DennisChin1022/CRUD-refactor/blob/1d6dd5643cb2a03689ddd94957129ae243750be5/utils/passport.auth.js#L17
 - Provide docker-compose file to help the data server preparation steps be quick (ex below). Need to install docker on your local machine before run script below.
 '''
-# docker-compose. yml
+# docker-compose.yml
 version: '3.1' #format version for this docker compose file services:
-mongo-container:
-image: mongo: latest environment:
-- MONGO_INITDB_ROOT_USERNAME=admin
-- MONGO INITOR ROOT PAsswORDsadmin
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# Here you are setting the username and password
-" so chance it to whatever vou want
-!!!!!!!!!!!!!!!!!
-DOrTS:
-- "27017:27017"
-commanor mongod
+    mongo-container:
+    image: mongo: latest environment:
+        - MONGO_INITDB_ROOT_USERNAME=admin
+        - MONGO INITOR ROOT PAsswORDsadmin
+        # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # Here you are setting the username and password
+        # so chance it to whatever vou want 
+        # !!!!!!!!!!!!!!!!!
+    DOrTS:
+        - "27017:27017"
+    commanor mongod
 '''
 - Using required prop in HTML input tag for mandary input
 - Cause UserSchema is use required validators for: name, phone, email, password login.ejs
