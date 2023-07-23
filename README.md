@@ -3,12 +3,12 @@
 DEV Community)
 - Need add README.md file to demonstrate main content, how to run/start project as well.
 - Setup up start command in package.json to make project can run/start easy
-'''
+"""
 "scripts": {
 "test": "echo\ "Error: notestspecified\" &6 exiti"
 "start": "node app"
 // or "start": "nodemon app"
-'''
+"""
 - Need to naming unique endpoint.
     https://github.com/DennisChin 1022/CRUD-refactor/blob/1d6dd5643c2a03689ddd94957129ae243750be5/routes/retailer.route.js/L8
     https://github.com/DennisChin1022/CRUD-refactor/blob/1d6dd5643c2a03689ddd94957129ae243750be5/routes/admin.route.js#L131
